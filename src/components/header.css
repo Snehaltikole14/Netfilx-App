@@ -1,0 +1,63 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--common-padding);
+  height: 16vh;
+  background-color: transparent;
+  position: relative;
+  z-index: 1;
+}
+
+.logo a svg {
+  width: 148px;
+  height: auto;
+  margin-top: 30px;
+  margin-left: 100px;
+}
+.right-part {
+  display: flex;
+  justify-content: space-between;
+  gap: 1vw;
+  margin-right: 100px;
+  margin-top: 30px;
+}
+
+
+.right-part svg{
+  margin-right: -45px;
+  margin-top: 8px;
+}
+.right-part select {
+  padding: 4px 16px;
+  border-radius: 5px;
+  height: 6vh;
+  width: 10vw;
+  margin-right: 100px;
+  background-color: transparent;
+  color: white;
+  padding-left: 34px;
+  font-weight: 500;
+  font-size: 15px;
+
+}
+
+.right-part option{
+  color: black;
+}
+
+.right-part button {
+  padding: 4px 16px;
+  border: none;
+  color: #fff;
+  background-color: red;
+  font-weight: 600;
+  border-radius: 4px;
+  margin-left: -100px;
+  font-family: sans-serif;
+   height: 6vh;
+  width: 8vw;
+}
+.right-part button:hover{
+  background-color: brown;
+}
