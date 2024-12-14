@@ -12,19 +12,15 @@ header {
 .logo a svg {
   width: 148px;
   height: auto;
-  margin-top: 30px;
-  margin-left: 100px;
 }
 .right-part {
   display: flex;
   justify-content: space-between;
   gap: 1vw;
   margin-right: 100px;
-  margin-top: 30px;
 }
 
-
-.right-part svg{
+.right-part svg {
   margin-right: -45px;
   margin-top: 8px;
 }
@@ -39,10 +35,9 @@ header {
   padding-left: 34px;
   font-weight: 500;
   font-size: 15px;
-
 }
 
-.right-part option{
+.right-part option {
   color: black;
 }
 
@@ -55,9 +50,9 @@ header {
   border-radius: 4px;
   margin-left: -100px;
   font-family: sans-serif;
-   height: 6vh;
+  height: 6vh;
   width: 8vw;
 }
-.right-part button:hover{
+.right-part button:hover {
   background-color: brown;
 }

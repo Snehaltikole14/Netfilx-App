@@ -18,6 +18,7 @@ const SignUp = () => {
             <h1 className='title'>Sign In</h1>
 
             </div>  
+            <div className='container'></div>
       
       
      

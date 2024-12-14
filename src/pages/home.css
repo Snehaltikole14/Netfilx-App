@@ -1,11 +1,9 @@
 .home-container {
   background: url("https://assets.nflxext.com/ffe/siteui/vlv3/729ce5c2-d831-436a-8c9d-f38fea0b99b3/web/IN-en-20241209-TRIFECTA-perspective_4aef76eb-7d5b-4be0-93c0-5f67320fd878_large.jpg");
   height: 100vh;
-  width: 100%;
-  
+  width: 98vw;
   background-color: rgb(48, 48, 48);
   z-index: 1;
-  
 }
 
 .home {
@@ -20,18 +18,19 @@
   z-index: 1;
 }
 .background-color {
- position: absolute;
+  position: absolute;
   height: 100vh;
-  width: 97vw;
+  width: 98vw;
   background: black;
- opacity: 0.7;
+  opacity: 0.7;
   /* z-index: 0; */
 }
 
 .home-first-para {
   font-size: 55px;
   font-weight: 800;
-  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
   text-align: center;
   margin-bottom: 120px;
 }
@@ -40,17 +39,17 @@
   font-weight: 700;
   font-size: 22px;
   margin-top: -145px;
-  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
 }
 
-.third-para{
+.third-para {
   font-weight: 600;
   font-size: 18px;
   margin-top: -30px;
-  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
 }
-
-
 
 .subscribe-container {
   display: flex;
@@ -65,7 +64,7 @@
   padding: 12px 24px;
 }
 .subscribe-container input {
-  background-color:black;
+  background-color: black;
   opacity: 0.5;
   border: 1px solid rgb(248, 245, 245);
   border-radius: 4px;
@@ -88,4 +87,12 @@
   border-radius: 4px;
   height: 10vh;
   width: 16vw;
+}
+
+.border-line img{
+
+  /* padding-bottom: -500px; */
+ width: 97.5vw;
+ margin-top: -30px;
+ 
 }

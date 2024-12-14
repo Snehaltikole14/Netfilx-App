@@ -1,0 +1,14 @@
+
+
+.middlepart-container{
+  height: 100vh;
+  width: 97.5vw;
+  background-color: black;
+  border: 1px solid black;
+  margin-top: -7px;
+}
+
+h1{
+  color: white;
+  padding: var(--common-padding);
+}
