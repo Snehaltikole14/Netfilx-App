@@ -1,8 +1,8 @@
 import React from "react";
 import "./home.css";
-import Header from "../Components/Header";
 import MiddlePart from "../components/MiddlePart";
 import Account from "../components/Account";
+import Header from "../components/Header";
 
 const Home = () => {
   return (
