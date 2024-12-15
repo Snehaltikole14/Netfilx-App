@@ -1,0 +1,59 @@
+.card {
+  display: grid;
+  grid-template-columns: repeat(4, 245px);
+
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+  color: white;
+  gap: 20px;
+  margin-top: 10px;
+  font-weight: 500;
+ 
+
+  
+}
+
+.card1 svg{
+    padding-left: 140px;
+    padding-top: 70px;
+}
+.card2 svg{
+    padding-left: 130px;
+    padding-top: 30px;
+}
+.card3 svg{
+    padding-left: 130px;
+    padding-top: 100px;
+}
+.card4 svg{
+    padding-left: 130px;
+    padding-top: 50px;
+}
+.card1{
+ background: linear-gradient(to bottom, #1b1f36,#1b1f36, #1f0416);
+   height: 60vh;
+    border-radius: 10px;
+    padding-left:20px;
+}
+
+.card2{
+ background: linear-gradient(to bottom, #1b1f36,#1b1f36, #1f0416);
+   height: 60vh;
+    border-radius: 10px;
+    padding-left:20px;
+}
+
+.card3{
+ background: linear-gradient(to bottom, #1b1f36,#1b1f36, #1f0416);
+   height: 60vh;
+    border-radius: 10px;
+    padding-left:20px;
+}
+
+.card4{
+ background: linear-gradient(to bottom, #1b1f36,#1b1f36, #1f0416);
+   height: 60vh;
+    border-radius: 10px;
+    padding-left:20px;
+}
+

@@ -1,0 +1,53 @@
+.footer{
+    padding: var(--common-padding);
+    color: rgb(171, 166, 166);
+    margin-top: 100px;
+   
+    
+}
+
+.footer-left{
+    display: grid;
+    grid-template-columns: repeat(4,180px);
+    color: rgb(171, 166, 166);
+    column-gap: 70px;
+    margin-top: 40px;
+    font-size: 14px;
+   row-gap: 0px;
+    text-decoration: underline;
+    
+}
+
+
+.footer-end{
+    margin-top: 40px;
+
+}
+
+.footer-end svg {
+  margin-right: -35px;
+  margin-bottom: -2px;
+}
+.footer-end select {
+  padding: 4px 16px;
+  border-radius: 5px;
+  height: 6vh;
+  width: 10vw;
+  margin-right: 100px;
+  background-color: transparent;
+  color: white;
+  padding-left: 34px;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.footer-end option {
+  color: black;
+}
+
+.footer-end p{
+    color: rgb(186, 183, 183);
+    margin-right: 40px;
+    font-size: 15px;
+    margin-top: 30px;
+}

@@ -50,45 +50,6 @@
   font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
     sans-serif;
 }
-
-.subscribe-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1vw;
-  margin-bottom: 20px;
-  margin-top: -30px;
-}
-.subscribe-container input,
-.subscribe-container button {
-  padding: 12px 24px;
-}
-.subscribe-container input {
-  background-color: black;
-  opacity: 0.5;
-  border: 1px solid rgb(248, 245, 245);
-  border-radius: 4px;
-  color: white;
-  height: 5vh;
-  width: 25vw;
-  font-weight: 700;
-  font-size: 16px;
-}
-
-.subscribe-container input::placeholder {
-  color: white;
-}
-.subscribe-container button {
-  background-color: red;
-  color: white;
-  font-weight: 700;
-  font-size: 24px;
-  border: none;
-  border-radius: 4px;
-  height: 10vh;
-  width: 16vw;
-}
-
 .border-line img{
 
   /* padding-bottom: -500px; */

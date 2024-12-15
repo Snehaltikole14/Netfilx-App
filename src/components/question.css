@@ -1,0 +1,47 @@
+
+
+.questions{
+ font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+ gap: 20px;
+}
+
+
+.btn2:hover{
+    background-color: rgb(88, 87, 87);
+}
+
+
+
+.btn2{
+    color: white;
+    background-color: rgb(45, 45, 45);
+    width: 80vw;
+    height: 14vh;
+    font-weight:480;
+    font-size: 24px;
+    text-align: start;
+    padding-top: 27px;
+    padding-left: 20px;
+    border: 1px solid rgb(45, 45, 45) ;
+    margin-top: 20px;
+    transition: all 0.2s ease-in;
+}
+
+.btn2 p{
+    background-color:rgb(45, 45, 45) ;
+    text-align: start;
+    margin-top: -10px;
+   padding-left: 20px;
+    font-weight:450;
+    font-size: 22px;
+    width: 78vw;
+    margin-left: -21px;
+    padding-top: 40px;
+    padding-bottom: 15px;
+}
+
+.btn2 h3{
+    font-size: 40px;
+    margin-top: -45px;
+    margin-left:950px;
+}
