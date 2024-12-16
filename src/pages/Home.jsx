@@ -22,7 +22,7 @@ const Home = () => {
       </div>
 
       <div className="border-line">
-        <img src="public/img1.png" alt="" />
+        <img src="/img1.png" alt="" />
         <MiddlePart />
        
       </div>
